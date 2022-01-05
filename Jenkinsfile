@@ -3,21 +3,21 @@ node{
     git credentialsId: 'pardu', url: 'https://github.com/Tanvi0129/Jenkinsfile.git'
     }
     stage('maven clean'){
-	   sh 'mvn clean'
+	   sh 'maven clean'
 	}
 	stage('maven Validate') {
-	   sh 'mvn validate'
+	   sh 'maven Validate'
     }
 	stage('maven Compile') {
-	   sh 'mvn compile'
+	   sh 'maven Compile'
 	}
 	stage('maven Test') {
-	   sh 'mvn test'  
+	   sh 'maven Test'  
 	}
 	stage('maven Deploy'){
-	   sh 'mvn deploy'
+	   sh 'maven Deploy'
 	}
-	stage('maven package'){
-	   sh  'mvn package'
+	stage('maven Package'){
+	   sh  'maven Package'
 	}
 	}
